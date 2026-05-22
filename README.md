@@ -1,3 +1,8 @@
+# Homelab - Ubuntu server e Docker
+
+Estou criando esse repositorio para documentar o meu processo de instalação de um Ubuntu server e do Docker. Acabei de tirar a LPI Linux Essentials e quero praticar tudo que aprendi e também treinar com Docker.
+
+---
 # Instalação e Hardware
 
 - **ISO:** Ubuntu Server 24.04 LTS
@@ -22,7 +27,7 @@ sudo apt install network-manager -y
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 ```
-Prefiro realizar as configurações de redes através do nmtui.
+Pretendo utilizar com Wifi e realizar as configurações de redes através do nmtui eu acredito ser mais fácil.
 
 #### Instalação de programas necessários, como: git, curl e vim.
 ```bash
@@ -85,7 +90,7 @@ newgrp docker
 ```
 
 ---
-## Problema encontrados
+## Problemas encontrados:
 - Teclado com layout incorreto
 
 Como resolver:

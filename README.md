@@ -76,7 +76,7 @@ sudo apt update
 ```
 Toda vez que dermos update e upgrade irá atualizar automaticamente o Docker também.
 
-### Instalação Docker
+#### Instalação Docker
 ```bash
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -93,7 +93,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
-### Teste do Docker
+#### Teste do Docker
 ```bash
 docker --version
 docker run hello-world
